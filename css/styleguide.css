@@ -1,0 +1,74 @@
+:root { 
+  --athens-gray: #edecf1;
+  --black: #000000;
+  --orange-soda: #f95c3b;
+  --vivid-tangerine: #ff917b;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xl: 28px;
+  --font-size-xs: 16px;
+  --font-size-xxl: 36px;
+  --font-size-xxxl: 56px;
+ 
+  --font-family-muller-medium: "Muller-Medium", Helvetica;
+  --font-family-muller-regular: "Muller-Regular", Helvetica;
+  --font-family-raleway: "Raleway", Helvetica;
+}
+.title {
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.description {
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.extra-information {
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.buttons {
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.main-text {
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.heading {
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.numbers-i {
+  font-family: var(--font-family-muller-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
