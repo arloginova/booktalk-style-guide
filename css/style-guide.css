@@ -387,7 +387,7 @@
 	line-height: 24px;
 	position: absolute;
 	top: 218px;
-	width: 430px;
+	width: 76% !important;
 }
 
 .style-guide .overlap-group10 {
@@ -475,6 +475,13 @@
 	top: 332px;
 	white-space: nowrap;
 }
+.style-guide .main-text {
+	height: 25px;
+	line-height: 24px;
+	position: relative;
+	translate: 0 -30px;
+	width: 86%;
+}
 
 .style-guide .text_label {
 	color: var(--black);
@@ -483,7 +490,8 @@
 	line-height: 24px;
 	position: absolute;
 	top: 218px;
-	width: 589px;
+	width: 589px !important;
+	translate: 0 0px !important;
 }
 
 .style-guide .frame-6 {
@@ -573,7 +581,7 @@
 .style-guide .group {
 	height: 292.93px;
 	position: relative;
-	width: 209.9px;
+	width: auto;
 }
 
 .style-guide .overlap-group {
@@ -910,6 +918,9 @@
 	top: 218px;
 	width: 645px;
 }
+.style-guide .booktalk.stub1231 {
+	translate: 0 0 !important;
+}
 
 .style-guide .rectangle-1261 {
 	background-color: var(--athens-gray);
@@ -1001,6 +1012,7 @@
 }
 
 .style-guide .frame-512880 {
+	translate: 0 0 !important;
 	align-items: center;
 	display: flex;
 	height: 28px;
@@ -1009,19 +1021,12 @@
 	width: 355px;
 }
 
-.style-guide .main-text {
-	height: 25px;
-	line-height: 24px;
-	position: relative;
-	width: 105px;
-}
-
 .style-guide .raleway-20 {
 	font-weight: 500;
 	height: 25px;
 	line-height: 24px;
 	white-space: nowrap;
-	width: 132px;
+	width: 135px;
 }
 
 .style-guide .frame-512881 {
@@ -1067,7 +1072,10 @@
 	height: 21px;
 	margin-top: -0.5px;
 	position: relative;
-	width: 146px;
+	width: 206px;
+}
+.style-guide .e2-e1-ea .extra-information {
+	color: inherit;
 }
 
 .style-guide .raleway-18 {
@@ -1097,7 +1105,7 @@
 	letter-spacing: 0;
 	line-height: normal;
 	position: relative;
-	width: 77px;
+	width: auto;
 }
 
 .style-guide .raleway-16 {
@@ -1534,6 +1542,9 @@
 	left: 32px;
 	position: absolute;
 }
+.booktalk-2.stub8472 {
+	translate: 0 0 !important;
+}
 
 .style-guide .extra-2 {
 	font-weight: 500;
@@ -1542,9 +1553,13 @@
 }
 
 .style-guide .main-2 {
+	translate: 0 0 !important;
 	color: var(--black);
 	font-weight: 500;
 	white-space: nowrap;
+}
+.main-2.stub3214 {
+	width: 60%;
 }
 
 .style-guide .raleway {
