@@ -1355,6 +1355,8 @@
 }
 
 .style-guide .vector {
+	z-index: 2;
+	margin-top: -292px;
 	height: 39px;
 	margin-left: 6.22px;
 	width: 114px;
