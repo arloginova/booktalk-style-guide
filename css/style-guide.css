@@ -482,6 +482,9 @@
 	translate: 0 -30px;
 	width: 86%;
 }
+.stub4983 {
+	max-width: 575px;
+}
 
 .style-guide .text_label {
 	color: var(--black);
